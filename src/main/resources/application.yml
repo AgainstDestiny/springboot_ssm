@@ -1,0 +1,10 @@
+# TODO 配置数据源相关信息
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/my_db_01?useSSL=false
+    username: root
+    password: 100863
+    type: com.alibaba.druid.pool.DruidDataSource
+
